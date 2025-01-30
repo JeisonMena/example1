@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo con Viewport</title>
+    <!--En este ejemplo:
+    La etiqueta <meta name="viewport" content="width=device-width, initial-scale=1"> asegura que el ancho del viewport se ajuste al ancho del dispositivo y que la escala inicial sea 1 (sin zoom).
+    El CSS se utiliza para establecer estilos básicos.
+    -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+    <meta name="viewport" content="width=800">
+
+
+    <!--Con esta alteración, estamos definiendo el ancho del viewport en 800 píxeles,
+        independientemente del dispositivo.
+        Esto significa que en dispositivos con un ancho de pantalla menor a 800 píxeles,
+        como muchos teléfonos móviles, los usuarios tendrán que desplazarse horizontalmente para ver todo el contenido,
+        ya que la página no se ajustará automáticamente al ancho del dispositivo.
+        Esto puede llevar a una experiencia de usuario no óptima en dispositivos móviles.-->
+    <!-- <meta name="viewport" content="width=800"> -->
+    
+
+
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 80%; margin: auto; }
+        h1 { color: navy; }
+        p { line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido al Ejemplo con Viewport</h1>
+        <p>Este es un párrafo de ejemplo para mostrar cómo funciona el viewport en HTML. Si abres esta página en diferentes dispositivos, verás que el texto se ajusta adecuadamente al tamaño de la pantalla.</p>
+    </div>
+</body>
+</html>
+
+
